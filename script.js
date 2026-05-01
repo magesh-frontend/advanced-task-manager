@@ -14,7 +14,7 @@ function addTask() {
     const text = input.value.trim();
 
     if (text.length < 3) {
-        alert("Task must be at least 3 characters");
+        alert("⚠ Task must be at least 3 characters");
         return;
     }
 

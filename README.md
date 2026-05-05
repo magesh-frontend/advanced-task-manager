@@ -32,7 +32,7 @@ This project allows users to **add, manage, and filter tasks** with a clean and 
 ## 🔗 Live Demo
 
 **Live Project:**
-https://magesh-advanced-task-manager.netlify.app/
+advanced-task-manager-4wd6.vercel.app
 
 ---
 

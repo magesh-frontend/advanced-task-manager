@@ -32,7 +32,7 @@ This project allows users to **add, manage, and filter tasks** with a clean and 
 ## 🔗 Live Demo
 
 **Live Project:**
-advanced-task-manager-4wd6.vercel.app
+https://advanced-task-manager-4wd6.vercel.app/
 
 ---
 

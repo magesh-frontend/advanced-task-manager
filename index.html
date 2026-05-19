@@ -10,3 +10,48 @@
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>📝 Advanced Task Manager</h1>
+
+    <div class="input-container">
+      <input
+        type="text"
+        id="taskInput"
+        placeholder="What needs to be done?"
+      />
+
+      <button id="addBtn">Add Task</button>
+
+      <p id="errorMsg"></p>
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="🔍 Search tasks..."
+      />
+    </div>
+
+    <div class="filters">
+      <button class="active" onclick="setFilter(event,'all')">All</button>
+      <button onclick="setFilter(event,'completed')">Completed</button>
+      <button onclick="setFilter(event,'pending')">Pending</button>
+    </div>
+
+    <p id="taskCount">Total Tasks: 0</p>
+
+    <p id="emptyMsg">No tasks yet. Add one 🚀</p>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # 🚀 Advanced Task Manager
-
 A responsive and interactive **Task Manager Web Application** built using **React.js**.  
+A responsive and interactive **Task Manager Web Application** built using **HTML, CSS, and JavaScript**.
 This project allows users to **add, manage, and filter tasks** with a clean and user-friendly interface.
 
 ---
@@ -28,13 +28,19 @@ https://advanced-task-manager-4wd6.vercel.app/
 * 🗑️ Delete tasks
 * 🌙 Dark mode toggle
 * 🖱️ Drag & Drop to reorder tasks
-* 💾 LocalStorage — tasks auto saved
+* 💾 LocalStorage — tasks auto save
+* 🕒 View pending tasks
+* 📋 Filter tasks:
+
+  * All
+  * Completed
+  * Pending
+* 🗑️ Delete tasks
 * 📱 Responsive design
 
 ---
 
 ## 🛠️ Technologies Used
-
 * React.js 18
 * Vite
 * CSS3 (CSS Variables)
@@ -62,8 +68,18 @@ npm run dev
 Open your browser → `http://localhost:5173`
 
 ---
+* HTML5
+* CSS3
+* JavaScript (DOM Manipulation)
 
+---
 
+## 🔗 Live Demo
+
+**Live Project:**
+https://advanced-task-manager-4wd6.vercel.app/
+
+---
 
 ## 💻 GitHub Repository
 
@@ -94,9 +110,15 @@ advanced-task-manager/
 
 Task Manager with priority levels, dark mode, drag & drop, and filtering options.
 
+## 📸 Project Preview
+
+Task Manager with filtering options and interactive UI.
+
 ---
 
 ## 👨‍💻 Author
 
-**--- Magesh ---**  
+**--- Magesh ---** 
+
 Frontend Developer | HTML | CSS | JavaScript | React.js
+

@@ -1,124 +1,78 @@
-# 🚀 Advanced Task Manager
-A responsive and interactive **Task Manager Web Application** built using **React.js**.  
-A responsive and interactive **Task Manager Web Application** built using **HTML, CSS, and JavaScript**.
-This project allows users to **add, manage, and filter tasks** with a clean and user-friendly interface.
+# Advanced Task Manager
 
----
+A task management application built using React.js. This project helps users create, manage, and organize daily tasks with features like task filtering, priority management, drag and drop, and dark mode.
 
-## 🔗 Live Demo
+## Live Demo
 
-**Live Project:**  
 https://advanced-task-manager-4wd6.vercel.app/
 
----
+## Features
 
-## ✨ Features
+* Add new tasks
+* Edit tasks
+* Delete tasks
+* Mark tasks as completed
+* Search tasks
+* Filter tasks (All, Completed, Pending)
+* Set priority levels (High, Medium, Low)
+* Due date support
+* Overdue task indication
+* Drag and drop task reordering
+* Dark mode toggle
+* LocalStorage data persistence
+* Responsive design
 
-* ➕ Add new tasks
-* ✅ Mark tasks as completed
-* 🔴🟡🟢 Priority levels (High / Medium / Low)
-* 📅 Due date support with overdue warning
-* 🔍 Search tasks
-* 📋 Filter tasks:
-  * All
-  * Completed
-  * Pending
-  * By Priority
-* ✏️ Edit tasks (inline)
-* 🗑️ Delete tasks
-* 🌙 Dark mode toggle
-* 🖱️ Drag & Drop to reorder tasks
-* 💾 LocalStorage — tasks auto save
-* 🕒 View pending tasks
-* 📋 Filter tasks:
+## Technologies Used
 
-  * All
-  * Completed
-  * Pending
-* 🗑️ Delete tasks
-* 📱 Responsive design
-
----
-
-## 🛠️ Technologies Used
-* React.js 18
+* React.js
+* JavaScript (ES6+)
 * Vite
-* CSS3 (CSS Variables)
+* CSS3
 * LocalStorage API
 * HTML5 Drag and Drop API
 
----
-
-## 📦 Installation & Setup
+## Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/magesh-frontend/advanced-task-manager.git
 
-# Go into the project folder
 cd advanced-task-manager
 
-# Install dependencies
 npm install
 
-# Start development server
 npm run dev
 ```
 
-Open your browser → `http://localhost:5173`
+## Project Structure
 
----
-* HTML5
-* CSS3
-* JavaScript (DOM Manipulation)
-
----
-
-## 🔗 Live Demo
-
-**Live Project:**
-https://advanced-task-manager-4wd6.vercel.app/
-
----
-
-## 💻 GitHub Repository
-
-https://github.com/magesh-frontend/advanced-task-manager
-
----
-
-## 📁 Project Structure
-advanced-task-manager/
-├── index.html
-├── package.json
-└── src/
-├── main.jsx
-├── App.jsx
-├── index.css
+```text
+src/
 ├── components/
 │   ├── Header.jsx
 │   ├── TaskInput.jsx
 │   ├── FilterBar.jsx
 │   ├── TaskList.jsx
 │   └── TaskItem.jsx
-└── hooks/
-└── useTasks.js
+│
+├── hooks/
+│   └── useTasks.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
 
----
+## What I Learned
 
-## 📸 Project Preview
+* Creating reusable React components
+* Using custom hooks
+* Working with LocalStorage
+* Implementing drag and drop functionality
+* Managing application state in React
+* Building responsive user interfaces
 
-Task Manager with priority levels, dark mode, drag & drop, and filtering options.
+## Author
 
-## 📸 Project Preview
+Magesh B
 
-Task Manager with filtering options and interactive UI.
-
----
-
-## 👨‍💻 Author
-
-**--- Magesh ---** 
-
-Frontend Developer | HTML | CSS | JavaScript | React.js
-
+GitHub: https://github.com/magesh-frontend
